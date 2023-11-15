@@ -4,4 +4,5 @@
     <button class="banner-button text-center">
         할인받기
     </button>
+    <div class="close close1"></div>
 </div>

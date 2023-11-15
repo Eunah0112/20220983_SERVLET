@@ -1,8 +1,11 @@
-<%@ page contentType = "text/html; charset=utf-8" %>
-<footer class = "container">
-            <p>
-                &copy; WebMarket
-            </p>
+<%@ page contentType="text/html; charset=utf-8"%>
+<%@ page import="java.util.Date"%>
+	<footer class="container">
+	<p>&copy; 쇼핑몰 대표 : 이름, 고유번호 : 학번, 연락처 : 이메일 주소<br> 
+
+        </p>
+	</footer>
+
             <%
                 Date day = new java.util.Date();
                 String am_pm;
@@ -18,4 +21,3 @@
                 String CT = hour + ":" + minute + ":" + second + " " + am_pm;
                 out.println("현재 접속  시각: " + CT + "\n");
             %>
- </footer>

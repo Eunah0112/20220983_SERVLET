@@ -1,5 +1,4 @@
-<%@ page contentType = "text/html; charset=utf-8" %>
-
+<%@ page contentType = "text/html;charset=utf-8" %>
 <nav class ="navbar title navbar-expand navbar-white bg-white">
     <div>
         <a href="index.jsp"><img src="image\logo.png" class="logo img-fluid" alt="logo_image"></a>
@@ -18,8 +17,11 @@
         <a class="item1" href="./index.jsp">게시판</a>
     </div>
     <div class="navbarheader">
-        <a class="item2" href="./index.jsp">로그인</a>
+        <a class="item2" href="./index.jsp">회원 보기/추가/수정/삭제</a>
+        <a class="item2" href="./index.jsp">상품 보기</a>
+        <a class="item2" href="./index.jsp">등록</a>
+        <a class="item2" href="./index.jsp">수정/삭제</a>
         <a class="item2" href="./index.jsp">회원가입</a>
-        <a class="item2" href="../admin/index_ad.jsp">관리자모드</a>
+        <a class="item2" href="../index_ad.jsp">일반모드</a>
     </div>
 </nav>
