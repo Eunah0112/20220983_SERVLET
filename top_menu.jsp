@@ -18,6 +18,7 @@
         <a class="item1" href="./index.jsp">게시판</a>
     </div>
     <div class="navbarheader">
+        <a class="navbar-brand" href="index.jsp">상품목록(기본 홈)</a>
         <a class="item2" href="./index.jsp">로그인</a>
         <a class="item2" href="./index.jsp">회원가입</a>
         <a class="item2" href="../admin/index_ad.jsp">관리자모드</a>
